@@ -21,3 +21,7 @@ describe "here we find the sum of the multiples in the defined range" do
     expect(sum_of_3_or_5_multiples?(1001)).to eq("Error")
   end
 end
+
+describe "" do
+  
+end

@@ -7,7 +7,6 @@ elsif nb % 3 == 0 || nb % 5 == 0
     return false
   end
 end
-
 def sum_of_3_or_5_multiples?(nb)
   sum = 0
   i = 0
@@ -24,3 +23,5 @@ def sum_of_3_or_5_multiples?(nb)
   end
   return sum
 end
+
+def ceasar_cypher
