@@ -11,6 +11,9 @@ end
 def sum_of_3_or_5_multiples?(nb)
   sum = 0
   i = 0
+  if nb > 1000
+    return "Error"
+  end
   while i < nb do
     if is_multiple_of_3_or_5?(i) == true
       sum += i

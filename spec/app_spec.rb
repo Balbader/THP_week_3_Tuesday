@@ -18,6 +18,6 @@ describe "here we find the sum of the multiples in the defined range" do
   it "should return the sum of the sorted multiples " do
     expect(sum_of_3_or_5_multiples?(10)).to eq(23)
     expect(sum_of_3_or_5_multiples?(11)).to eq(33)
-    expect(sum_of_3_or_5_multiples?(1001)).to eq(false)
+    expect(sum_of_3_or_5_multiples?(1001)).to eq("Error")
   end
 end
